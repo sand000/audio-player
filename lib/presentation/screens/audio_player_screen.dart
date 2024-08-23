@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/bloc/audio_player/audio_player_bloc.dart';
-import 'package:flutter_application_1/presentation/widgets/painter_widget.dart';
+import 'package:audio_player/bloc/audio_player/audio_player_bloc.dart';
+import 'package:audio_player/presentation/widgets/painter_widget.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class AudioPlayerScreen extends StatelessWidget {

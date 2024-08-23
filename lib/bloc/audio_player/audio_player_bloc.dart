@@ -13,7 +13,7 @@ class AudioPlayerBloc extends Bloc<AudioPlayerEvent, AudioPlayerState> {
   final String _audioUrl =
       'https://codeskulptor-demos.commondatastorage.googleapis.com/descent/background%20music.mp3';
 
-  final List<double> _frequencies = List.filled(10, 0.0);
+  final List<double> _frequencies = List.filled(40, 0.0, growable: true);
   StreamSubscription<Duration>? _positionSubscription;
 
   AudioPlayerBloc() : super(AudioPlayerState.initial) {

@@ -1,4 +1,4 @@
-# flutter_application_1
+# audio_player
 
 A new Flutter project.
 
